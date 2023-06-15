@@ -78,6 +78,7 @@ void mostrarCuadricula(bool grid[GRID_SIZE][GRID_SIZE]) {
         for (int i = 0; i < GRID_SIZE; i++) {
             for (int j = 0; j < GRID_SIZE; j++) {
                 sf::RectangleShape cell(sf::Vector2f(CELL_SIZE, CELL_SIZE));
+                window.setFramerateLimit(120);
 
                 // Definir el color de las celdas según su estado (viva o muerta)
                 if (grid[i][j]) {
