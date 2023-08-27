@@ -1,1 +1,1 @@
-++ game_of_life.cpp -o game_of_life -lsfml-graphics -lsfml-window -lsfml-system
+g++ game_of_life.cpp -o game_of_life -lsfml-graphics -lsfml-window -lsfml-system
